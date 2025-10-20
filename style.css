@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.header .more_inf {
+.header .more_info {
   font-family: fantasy, cursive;
 }
 
@@ -68,7 +68,7 @@ body {
 /* Heading */
 
 .main-box__heading,
-.main-box__label {
+.new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -97,7 +97,7 @@ body {
 
 /* New Task */
 
-.main-box__label {
+.new-task {
   display: block;
   margin: 0 0 20px;
 }
@@ -125,14 +125,14 @@ body {
   margin: 0 10px;
 }
 
-.main-box__list-item > label {
+.main-box__list-item > .main-box__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.main-box__form[type="text"] {
+.main-box__list-item > .main-box__form[type="text"] {
   width: 226px
 }
 
